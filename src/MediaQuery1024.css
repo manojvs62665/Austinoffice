@@ -163,7 +163,10 @@
         padding: 15px 0 10px 0;
     }
     .AustinEduContent {
-        margin: 0% auto 10% auto;
+        margin: 0% auto 6% auto;
+    }
+    .AustinOfcHeading {
+        margin: 20px 0 0 0;
     }
     .mnoj {
         width: 50%;
@@ -215,11 +218,26 @@
         padding: 20px 0 10px 0;
     }
     .WorldClass {
-        padding: 50px 0 20px 0%;
+        padding: 20px 0 20px 0%;
+    }
+    .CompanyContent {
+        padding: 30px 0 30px 0;
     }
     .GetInTouch {
         font-size: 12px;
         padding: 5px 10px;
+    }
+    .TotalOwnerContent {
+        padding: 0px 0 40px 0;
+    }
+    .MapHeading {
+        margin: 30px auto;
+    }
+    .OwnerHeading {
+        padding: 30px 0;
+    }
+    .AustinSub {
+        margin: 80px auto 30px auto;
     }
     .Places {
         width: 100%;
@@ -232,6 +250,9 @@
     .PlacesRight {
         padding: 1px 0;
         /* width: 0%; */
+    }
+    .SubContent {
+        padding: 10px;
     }
     .FormBlocks {
         width: 80%;
@@ -253,7 +274,7 @@
     }
     .ContactFormHeading {
         width: 100%;
-        margin: 0 0 20px 10px;
+        margin: 0 0 0px 10px;
     }
     /* .FormInputt {
         background-position-x: 204px;
@@ -269,5 +290,14 @@
     }
     .BackButton {
         margin: 20px 0 30px 320px;
+    }
+    .Austin-name, .AustinOfcHeading, .OwnerHeading, .MapHeading{
+        font-size: 35px;
+    }
+    .Austin-name {
+        margin: 30px 0;
+    }
+    .AustinTech {
+        margin: 60px auto;
     }
 }

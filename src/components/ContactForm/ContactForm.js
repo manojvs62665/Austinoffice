@@ -67,11 +67,11 @@ class ContactForm extends Component{
         if(!this.state.name){
             nameError = "*Please enter name";
         }
-        else if(!this.state.name.match(/^([a-zA-Z]{4,15}\s*)+$/)){
+        else if(!this.state.name.match(/^[a-zA-Z-,]+(\s{0,1}[a-zA-Z-, ])*$/)){
             nameError = "*Name Must be More than 4 Characters";
         }
         if(!this.state.number){
-            numberError = "*Please enter number";
+            numberError = "*Please enter phone number";
         }
         // else if(!this.state.number.match(/^[0-9]*$/)){
         //     numberError = "*Enter valid Number";

@@ -55,7 +55,7 @@
         /* padding: 35px 0 35px 51px; */
     }
     .icon {
-        display: block;
+        display: none;
         font-size: 50px;
     }
     .Navigation-anchor.nav1:not(:first-child) {display: none;}

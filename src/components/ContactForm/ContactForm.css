@@ -41,6 +41,7 @@ input[type=number]::-webkit-outer-spin-button {
     font-family: Nunito;
     border: none;
     margin: 0 9px 0 0;
+    text-indent: 10%;
 }
 .FormInputt{
     display: inline-block;
@@ -88,6 +89,7 @@ input[type=number]::-webkit-outer-spin-button {
     border: none;
     position: sticky;
     /* margin: 10px 10px; */
+    text-indent: 10%;
 }
 .FormButton{
     width: 165px;
@@ -112,7 +114,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 ::placeholder{
     color: #4f4f4f;
-    padding: 0 30px;
+    /* padding: 0 30px; */
 }
 .Footer{
     width: 100%;

@@ -40,7 +40,7 @@
         background: none;
         float: left;
         margin: 0;
-        padding: 0 30px;
+        padding: 0 0px;
     }
     .Comlogo {
         margin: 0;
@@ -53,7 +53,7 @@
     }
     .about-place {
         text-align: left;
-        padding: 50px 60px;
+        padding: 50px 25px;
     }
     .place-austin {
         font-size: 15px;
@@ -89,7 +89,7 @@
         font-size: 16px;
         line-height: 26px;
         padding: 0px 10px;
-        width: 100%;
+        width: 80%;
     }
     .news-media {
         font-size: 12px;
@@ -110,50 +110,56 @@
     }
     .WhyAustin-content {
         width: 100%;
-        margin: 160px auto 20px auto;
+        margin: 145px auto 20px auto;
         padding: 0 0px;
         display: inline-block;
     }
     .Austin-name {
-        margin: 30px 50px;
+        margin: 20px 30px;
         width: 100%;
     }
     .Content {
         float: left;
         width: 100%;
         /* height: 200px; */
-        margin: 50px 0 0 0;
+        margin: 20px 0 0 0;
     }
     .RightContent {
         padding: 0 40px;
     }
     .BestofList {
-        margin: 0px 10px 0 10px;
+        margin: 0px 0px 0 0px;
         width: 15%;
         height: 15%;
     }
     .BestoflistContent {
         margin: 0 0 20px 0;
-        padding: 0 20px;
+        padding: 0 10px;
     }
     .BestofList2 {
-        margin: 10px 10px 0 10px;
+        margin: 10px 0px 0 0px;
         width: 15%;
         height: 15%;
     }
     .BestoflistContent2, .BestoflistContent3 {
         margin: 10px 0 10px 0;
-        padding: 0 20px;
+        padding: 0 10px;
     }
     .contentOne1, .contentTwo, .contentOne {
         width: 100%;
+    }
+    .contentOne1, .contentOne {
+        font-size: 18px;
+    }
+    .contentTwo {
+        font-size: 12px;
     }
     .AustinPicture {
         width: 80%;
         /* height: 500px; */
         background-color: #fff;
         margin: 0 auto;
-        padding: 0 55px;
+        padding: 0 30px;
     }
     .AboutAustine {
         float: none;
@@ -165,6 +171,7 @@
     .GroupOfPeople {
         width: 96%;
         padding: 10px;
+        margin: 0;
     }
     .GroupOfPeoplePic {
         width: 50%;
@@ -174,7 +181,7 @@
     }
     .ArtCultureContent {
         width: 80%;
-        margin: 70px auto;
+        margin: 20px auto;
     }
     .ArtCultureImage {
         width: 100%;
@@ -235,23 +242,28 @@
     }
     .AustinEduContent {
         width: 80%;
-        margin: 50px auto;
-    } 
+        margin: 20px auto;
+    }
     .AustinOfcHeading {
         width: 100%;
+        margin: 20px 0 0 0;
     }
     .mnoj {
-        width: 80%;
+        width: 90%;
         float: none;
         margin: 0 auto;
     }
+    .hh {
+        width: 90%;
+    }
     .Vacancy {
         width: 100%;
-        height: 80px;
+        height: 70px;
+        margin: 0 0 15px 0;
     }
     .DownArrowImg {
-        width: 50px;
-        height: 50px;
+        width: 40px;
+        height: 40px;
     }
     .VacancyWord {
         font-size: 11px;
@@ -264,7 +276,7 @@
         float: none;
         /* margin: -7px 0 0 0; */
         width: 63%;
-        padding: 18px 73px;
+        padding: 18px 50px;
     }
     .AboutVacancyDetail {
         /* float: left; */
@@ -282,20 +294,20 @@
         width: 100%;
         font-size: 25px;
         line-height: 30px;
-        margin: 10px auto;
-        height: 130px;
+        margin: 0px auto;
+        height: 100px;
     }
     .AboutVacancy {
         width: 100%;
         font-size: 15px;
-        padding: 0 0 30px 0;
+        padding: 0 0 20px 0;
     }
     .FindButton {
         width: 100%;
     }
     .Places {
         width: 100%;
-        margin: 50px auto;
+        margin: 20px auto;
     }
     .PlaceLeft {
         /* width: 0%; */
@@ -333,7 +345,7 @@
     .WorldClassMobilePicture {
         display: block;
         width: 100%;
-        padding: 30px 0 0px 0;
+        padding: 20px 0 0px 0;
     }
     .WorldClassContent {
         width: 100%;
@@ -341,7 +353,7 @@
         font-size: 15px;
         line-height: 20px;
         /* padding: 0px 0px 0px 0; */
-        margin: 0px 0 60px 0;
+        margin: 0px 0 55px 0;
         padding: 10px 0;
     }
     .GetInTouch {
@@ -354,18 +366,19 @@
         margin: 45% auto 0 auto;
         display: grid;
         background-color: #fff;
-        padding: 30px 0 0px 0;
+        padding: 10px 0 0px 0;
     }
     .CompanyContent {
         width: 100%;
         margin: 0px auto;
-        padding: 30px 0 0px 0;
+        padding: 20px 0 0px 0;
     }
     .OwnerHeading {
         padding: 0;
+        line-height: 30px;
     }
     .MapHeading {
-        margin: 20px auto;
+        margin: 10px auto;
     }
     .MostDiverseCentral {
         font-size: 12px;
@@ -375,7 +388,7 @@
     }
     .SubBorder {
         display: inline-block;
-        padding: 10px;
+        padding: 5px 0;
         width: 100%;
     }
     .SubNames {
@@ -383,8 +396,14 @@
         font-size: 15px;
         font-weight: 500;
     }
+    .SubContent {
+        width: 90%;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
     .AustinSub {
         margin: 0 auto;
+        width: 100%;
     }
     .ContactFormHeading {
         margin: 20px 0 0px 0;
@@ -408,8 +427,8 @@
     } */
     .BackButton {
         width: 30%;
-        margin: 20px 180px 30px 105px;
-    }  
+        margin: 20px 180px 30px 130px;
+    }
     .Text {
         font-size: 20px;
     }
@@ -424,6 +443,6 @@
         line-height: 25px;
     }
     .Austin-name, .AustinOfcHeading, .OwnerHeading, .MapHeading{
-        font-size: 30px;
+        font-size: 23px;
     }
 }
