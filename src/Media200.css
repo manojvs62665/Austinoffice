@@ -82,35 +82,35 @@
         /* width: 100%; */
     }
     .trending-numbers {
-        font-size: 25px;
-        padding: 20px 10px;
+        font-size: 23px;
+        padding: 20px 15px;
     }
     .job-seeker {
-        font-size: 16px;
-        line-height: 26px;
-        padding: 0px 10px;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0px 15px;
         width: 80%;
     }
     .news-media {
         font-size: 12px;
         line-height: 15px;
-        padding: 40px 15px 0 10px;
+        padding: 20px 15px 0 15px;
         width: 100%;
     }
     .forbs-media {
         font-size: 12px;
         line-height: 15px;
-        padding: 10px 15px 20px 10px;
+        padding: 5px 15px 0px 15px;
     }
-    .Job-box, .Income-tax, .Tech-jobs, .Us-millenials{
+    .Job-box, .Income-tax, .Tech-jobs, .Us-millenials {
         width: 50%;
         overflow: hidden;
-        /* height: 160px; */
+        height: 149px;
         float: left;
     }
     .WhyAustin-content {
         width: 100%;
-        margin: 145px auto 20px auto;
+        margin: 40px auto 20px auto;
         padding: 0 0px;
         display: inline-block;
     }
@@ -331,7 +331,7 @@
         display: none;
     }
     .WorldClassMatter {
-        margin: 0px 0 30px 0px;
+        margin: 0px 0 40px 0px;
         width: 100%;
     }
     .WorldClassHeading {
@@ -339,21 +339,21 @@
         /* height: 22px; */
         color: #222222;
         font-family: Poppins;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 700;
     }
     .WorldClassMobilePicture {
         display: block;
         width: 100%;
-        padding: 20px 0 0px 0;
+        padding: 7px 0 0px 0;
     }
     .WorldClassContent {
         width: 100%;
         /* height: 82px; */
-        font-size: 15px;
+        font-size: 13px;
         line-height: 20px;
         /* padding: 0px 0px 0px 0; */
-        margin: 0px 0 55px 0;
+        margin: 0px 0 30px 0;
         padding: 10px 0;
     }
     .GetInTouch {
@@ -366,7 +366,7 @@
         margin: 45% auto 0 auto;
         display: grid;
         background-color: #fff;
-        padding: 10px 0 0px 0;
+        padding: 30px 0 0px 0;
     }
     .CompanyContent {
         width: 100%;
@@ -418,6 +418,7 @@
     .TextMessage {
         width: 100%;
         padding: 15px 0 0 0;
+        text-indent: 10%;
     }
     .FormInput, .FormInputt, .TextMessage{
         margin: 9px 0;

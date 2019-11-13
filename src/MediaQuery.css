@@ -252,8 +252,14 @@
     }
     .TotalOwnerContent {
         width: 100%;
-        padding: 10px 0 80px 0;
+        padding: 10px 0 40px 0;
         display: grid;
+    }
+    .CompanyContent {
+        padding: 30px 0 40px 0;
+    }
+    .MapHeading {
+        margin: 30px auto;
     }
     .WorldClassContent {
         width: 100%;
@@ -297,7 +303,7 @@
     }
     .ContactFormHeading {
         width: 100%;
-        margin: 0 0 20px 10px;
+        margin: 0 0 10px 10px;
     }
     .ErrorMessages {
         margin: 7px 0px 50px 10px;
@@ -314,5 +320,7 @@
     .Austin-name, .AustinOfcHeading, .OwnerHeading, .MapHeading{
         font-size: 30px;
     }
-    
+    .AustinSub {
+        margin: 90px auto 30px auto;
+    }
 }

@@ -32,7 +32,7 @@
         padding: 35px 0 35px 20px;
     }
     .nav1 {
-        padding: 35px 30px 35px 100px;
+        /* padding: 35px 30px 35px 100px; */
         width: 100%;
         font-size: 9px;
         padding: 20px 0;
@@ -141,7 +141,7 @@
     .ArtCultureImage {
         width: 40%;
         float: right;
-        margin: 40px 0 0px;
+        margin: 0px 0 0px;
     }
     .ArtCultureMatter {
         width: 52%;

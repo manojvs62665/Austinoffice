@@ -3,6 +3,7 @@ import './ContactForm.css';
 // import ThankyouMessage from './ThankyouMessage';
 // import Validation from './Validation';
 import AustinOfcOwners from '../AustinOfcOwners/AustinOfcOwners';
+import { Link } from 'react-scroll';
 
 const defaultState = {
     name: "",
@@ -128,11 +129,11 @@ class ContactForm extends Component{
                         ref="number" name="number" value={this.state.number}
                         type="number" placeholder="Phone Number" />
 
-                        <select className="FormInputt" ref="select" name="select" 
+                        <select className="FormInputt" id="getIntouchSelect" ref="select" name="select" 
                         value={this.state.select}  onChange={this.handleChange}>
                             <option value="" selected>Austin's Largest Office Owners</option>
-                            <option value="WorldClass">1  -  World Class Property Company</option>
-                            <option value="TierRiet">2  -  TIER REIT</option>
+                            <option id="Worldclass" value="WorldClass">1  -  World Class Property Company</option>
+                            <option id="Tierriet" value="TierRiet">2  -  TIER REIT</option>
                             <option value="CalSTRS">3  -  CalSTRS</option>
                             <option value="Dell">4  -  Dell, Inc.</option>
                             <option value="Brandy">5  -  Brandywine Realty Trust</option>
@@ -143,7 +144,7 @@ class ContactForm extends Component{
                             <option value="RealEstate">10  -  Intercontinental Real Estate</option>
                         </select>
                        
-                        <textarea className="TextMessage" value={this.state.select} 
+                        <textarea className="TextMessage" 
                         name="message" placeholder="Message"></textarea>
                         <input className="FormButton" type="submit" value="send it"/>
                         {/* {this.state.thankyouMsg ? 

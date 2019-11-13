@@ -12,31 +12,43 @@ import Cousins from '../../assets/images/cousins@3x.png';
 import InterContinental from '../../assets/images/intercontinental@3x.png';
 import ContactForm from '../../components/ContactForm/ContactForm';
 import { Link } from 'react-scroll';
+import $ from 'jquery';
+import {} from '../../components/ContactForm/ContactForm';
 
 class AustinOfcOwners extends Component{
     constructor(props){
         super(props);
         this.state = {
-            GetInTouch : -1
+            getInTouchIndex : -1,
+            // data:id,
+            // data:value
         };
     }
-    changeHandle(e){
-        this.setState({
-            tech: e.target.value
+    componentDidMount(){
+        this._getInTouch();
+    }
+    _getInTouch = () => {
+        $("#worldclass").click(function() {
+            $('#getIntouchSelect').val('WorldClass').trigger('change');
         })
     }
+    // _getInTouch = () => {
+    //     $(".btn1").click(function () {
+    //        //this is change select value 1
+    //         $('#dynamicChange').val('1').trigger('change');
+    //     });
     render(){
-        const selectProperty = (index) =>{
-            this.setState({
-                getInTouchIndex: index
-            })
-            this.props.getInTouchIndex(index);
-        }
+        // const selectProperty = () =>{
+        //     this.setState({
+        //         getInTouchIndex: index
+        //     })
+        //     this.props.getInTouchIndex(index);
+        // }
         return(
                 <div className="TotalOwnerContent" id="topofficeowners">
                     <h1 className="OwnerHeading" >Austin's Largest Office Owners</h1>
                     <div className="CompanyContent">
-                        <div className="WorldClass" ref="GetInTouchValue" value={this.state.GetInTouchValue}>
+                        <div className="WorldClass" ref="GetInTouchValue">
                             <img className="WorldClassPicture" src={WorldClass} alt="WorldClass" />
                             <div className="WorldClassMatter" >
                             <p className="WorldClassHeading">1  -  World Class Property Company</p>
@@ -50,6 +62,8 @@ class AustinOfcOwners extends Component{
                             activeClass="active"
                             to="ContactForm"
                             className="GetInTouch"
+                            id="worldclass"
+                            // onClick={ () =>{ selectProperty(index)}}
                             spy={true}
                             smooth={true}
                             offset={-20}
