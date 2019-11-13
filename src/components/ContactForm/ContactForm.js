@@ -158,7 +158,7 @@ class ContactForm extends Component{
                           <li>{this.state.emailError}</li>
                           <li>{this.state.numberError}</li>
                           <li>{this.state.selectError}</li>
-                        </ul>
+                        </ul> 
                     </form>
                     { this.state.thankyouMsg ? thanku() : null }
                 </div>

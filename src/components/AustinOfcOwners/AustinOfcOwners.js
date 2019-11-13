@@ -32,11 +32,6 @@ class AustinOfcOwners extends Component{
             $('#getIntouchSelect').val('WorldClass').trigger('change');
         })
     }
-    // _getInTouch = () => {
-    //     $(".btn1").click(function () {
-    //        //this is change select value 1
-    //         $('#dynamicChange').val('1').trigger('change');
-    //     });
     render(){
         // const selectProperty = () =>{
         //     this.setState({
